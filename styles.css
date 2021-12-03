@@ -1,4 +1,12 @@
 
+  
+
+  .card-body{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+   
+  }
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -45,18 +53,47 @@ body{
     z-index: 0;
 }
 .navbar-dark{
-    background-color: #15036f;
+    background-color: #07082c;
 }
 
 .card{
   
-  margin: 0px 100px;
+  margin: 10px 100px;
 }
+.btn-social-icon:hover{
+  background: #1aff00;
+
+}
+.btn-facebook{
+  color:blue
+}
+.btn-linkedin{
+  color:rgba(54, 130, 210, 0.786)
+}
+.btn-twitter{
+  color:rgb(0, 145, 255)
+}
+.btn-google{
+  color: red;
+}
+.btn-mail{
+  color: rgba(231, 231, 38, 0.814);
+}
+.btn-instagram{
+  color: rgb(227, 4, 41);
+}
+
+
+
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.tooltip {
+  transition: opacity 1s;
 }
 
 
@@ -65,7 +102,7 @@ body{
     font-family: 'lemonada',sans-serif;
     font-weight: bolder;
     text-shadow: .1rem .1rem .3rem #333;
-    color: #FFF200;
+    color: #42f50b;
   }
   
   #home .content h2 {
@@ -106,7 +143,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: #FFF200;
+    background: #1aff00;
     height: 100%;
     width: 0%;
     -webkit-transition: .2s;
@@ -114,7 +151,10 @@ body{
     z-index: -1;
     
   }
-  
+  .card-body:hover{
+    box-shadow: 0 0px 0px 70px rgb(233, 36, 233);
+    transition: .4s;
+  }
   #home .content button:hover{
     box-shadow: 0 0 20px 20px red;
     transition: .5s;
@@ -161,7 +201,7 @@ body{
     height: 2rem;
     width: 2rem;
     cursor: pointer;
-    background: #FFF200;
+    background: #11ff00;
     margin: 0 1rem;
   }
   
@@ -183,7 +223,7 @@ body{
   }
   
   #special .heading h1 span {
-    color: #FFF200;
+    color: #26ff00;
   }
   
   #special .heading p {
@@ -252,7 +292,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: #FFF200;
+    background: #11ff00;
     height: 100%;
     width: 0%;
     -webkit-transition: .2s;
@@ -272,13 +312,13 @@ body{
   #special .card-container .card:hover {
             transform: scale(1.1);
             transition: .2s;
-            box-shadow: 0px 0 50px 20px rgb(210, 245, 8);
+            box-shadow: 0px 0 50px 20px rgb(8, 245, 12);
 
   }
 
 
   #dish {
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100vw;
   }
   
@@ -290,19 +330,16 @@ body{
   }
   
   #dish .heading h1 span {
-    color: #FFF200;
+    color: #3cff00;
   }
   
   #dish .box-container {
+
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
+    display: flex; 
+         align-items: center;
         justify-content: space-around;
-    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 1rem auto;
     width: 90%;
@@ -323,8 +360,7 @@ body{
   #dish .box-container .box img {
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+
   }
   
   #dish .box-container .box .info {
@@ -337,14 +373,10 @@ body{
     text-align: center;
 
     display: flex;
-  
             align-items: center;
-  
             justify-content: center;
-  
             flex-flow: column;
-    color: #fff;
-   
+            color: #fff;
             transform: scale(0);
   }
   
@@ -354,7 +386,7 @@ body{
   
   #dish .box-container .box .info p {
     font-size: 1.3rem;
-    border: 0.2rem solid #FFF200;
+    border: 0.2rem solid #44ff00;
     margin: 1rem 2rem;
   }
   
@@ -380,10 +412,9 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: #FFF200;
+    background: #26ff00;
     height: 100%;
     width: 0%;
-    -webkit-transition: .2s;
     transition: .2s;
     z-index: -1;
   }
@@ -393,20 +424,20 @@ body{
   }
   
   #dish .box-container .box:hover .info {
-    -webkit-transform: scale(1);
             transform: scale(1);
   }
   
   
   #about .heading h1 {
     font-size: 4rem;
-    color: rgba(231, 227, 19, 0.689)0, 0, 0);
+    color: rgba(76, 231, 19, 0.689)0, 0, 0);
     padding-top: 7rem;
     margin-bottom: 2rem;
+
   }
   
   #about .heading h1 span {
-    color: #FFF200;
+    color: #59ff00;
   }
   
   #about .content {
@@ -441,7 +472,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: #FFF200;
+    background: #2fff00;
     height: 100%;
     width: 0%;
     -webkit-transition: .2s;
@@ -464,6 +495,10 @@ body{
   #about .image {
     text-align: center;
   }
+
+
+
+  
 
 
 
